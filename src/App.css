@@ -1,38 +1,87 @@
-.App {
-  text-align: center;
+/* App.css */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fdeaf8; /* Light pink background */
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+form {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1 {
+  font-size: 24px;
+  margin-bottom: 12px;
+  color: #ff007f; /* Pink text */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 3px;
+  color: #ff007f; /* Pink text */
 }
 
-.App-link {
-  color: #61dafb;
+input[type="number"] {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 2px solid #ff007f; /* Pink border */
+  border-radius: 5px;
+}
+input:focus {
+  border: #ff007f; /* Pink border */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#sex {
+  margin-bottom: 15px;
 }
+
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+input[type='radio']:checked:after {
+  width: 12px;
+  height: 12px;
+  border-radius: 15px;
+  top: -1px;
+  left: -2px;
+  position: relative;
+  background-color: #ff00b7;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid #ff0055;
+}
+
+
+button {
+  background-color: #ff007f; 
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #ff77a5; 
+}
+
+output {
+  font-weight: bold;
+  font-size: 20px;
+  color: #ff007f; 
+  margin-top: 15px;
+}
+
