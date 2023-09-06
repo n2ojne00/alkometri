@@ -1,8 +1,8 @@
-/* App.css */
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:100,200,300,regular,500,600,700,100italic,200italic,300italic,italic,500italic,600italic,700italic);
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #fdeaf8; /* Light pink background */
+  font-family: 'Josefin Sans';
+  background-color: #ffd7f4; 
   margin: 0;
   padding: 0;
 }
@@ -10,7 +10,7 @@ body {
 form {
   background-color: #ffffff;
   border-radius: 8px;
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 10px 10px 10px #0001003a;
   padding: 20px;
   width: 300px;
   margin: 0 auto;
@@ -20,21 +20,21 @@ form {
 h1 {
   font-size: 24px;
   margin-bottom: 12px;
-  color: #ff007f; /* Pink text */
+  color: #ff007f; 
 }
 
 label {
   display: block;
   font-weight: bold;
   margin-bottom: 3px;
-  color: #ff007f; /* Pink text */
+  color: #ff007f;
 }
 
 input[type="number"] {
   width: 90%;
   padding: 10px;
   margin-bottom: 12px;
-  border: 2px solid #ff007f; /* Pink border */
+  border: 2px solid #ff007f; 
   border-radius: 5px;
 }
 
